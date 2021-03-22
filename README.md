@@ -1,7 +1,9 @@
 <h1 align="center">Hi 👋, I'm Bhargab</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate frontend developer from Assam, a north-eastern state in India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=the-wrong-guy&label=Profile%20views&color=0e75b6&style=flat" alt="the-wrong-guy" /> </p>
+
+
 
 - 🌱 I’m currently learning **Next.js**
 
@@ -12,8 +14,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/the-wrong-guy" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="the-wrong-guy" height="30" width="40" /></a>
-<a href="https://codesandbox.com/the-wrong-guy" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codesandbox.svg" alt="the-wrong-guy" height="30" width="40" /></a>
-<a href="https://instagram.com/the-wrong-guy" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="the-wrong-guy" height="30" width="40" /></a>
+<a href="https://www.instagram.com/bhargabs_photography/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="https://www.instagram.com/bhargabs_photography/" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -23,3 +24,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=the-wrong-guy&show_icons=true&locale=en" alt="the-wrong-guy" /></p>
 
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=the-wrong-guy&" alt="the-wrong-guy" /></p>
