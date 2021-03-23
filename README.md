@@ -27,7 +27,7 @@
 <p align="center"><img  height="195" width="515" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=the-wrong-guy&" alt="the-wrong-guy" /></p>
 
 
-<h3 align="left">Support me:</h3>
+<h3 align="left">Support me: 🦸‍♂️</h3> 
 <a href='https://www.buymeacoffee.com/bhargab' target='_'>
-<img src='./bmc.PNG' alt='buy me a coffee' />
+<img src='bmc-button.png' alt='buy me a coffee' />
 </a>
