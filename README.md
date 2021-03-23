@@ -25,3 +25,9 @@
 <p align="center">&nbsp;<img  height="195" width="515" align="center" src="https://github-readme-stats.vercel.app/api?username=the-wrong-guy&show_icons=true&locale=en" alt="the-wrong-guy" /></p>
 
 <p align="center"><img  height="195" width="515" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=the-wrong-guy&" alt="the-wrong-guy" /></p>
+
+
+<h3 align="left">Support me:</h3>
+<a href='https://www.buymeacoffee.com/bhargab' target='_'>
+<img src='./bmc.PNG' alt='buy me a coffee' />
+</a>
