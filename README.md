@@ -5,9 +5,9 @@
 
 
 
-- 🌱 I’m currently learning **React Native**
+- 🌱 I’m currently learning **Node JS and Mongo**
 
-- 💬 Ask me about **react,js,css**
+- 💬 Ask me about **react, js, css**
 
 - 📫 How to reach me **bhargab.contact@gmail.com**
 
