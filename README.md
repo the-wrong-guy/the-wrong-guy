@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **KTOR**
 
-- 💬 Ask me about **js, react enviroment(react.js, react native, next.js) and go**
+- 💬 Ask me about **js, react, databases**
 
 - 📫 How to reach me **bhargab.contact@gmail.com**
 
