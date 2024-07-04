@@ -5,7 +5,7 @@
 
 
 
-- 🌱 I’m currently learning **KTOR**
+- 🌱 I’m currently learning **System design & architecture**
 
 - 💬 Ask me about **js, react, databases**
 
