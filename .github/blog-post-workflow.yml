@@ -1,0 +1,46 @@
+name: Update README with latest Dev.to Post
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Latest Dev.to Post
+        id: fetch_dev_post
+        run: |
+          DEVTO_USERNAME="bhargab"
+          API_RESPONSE=$(curl -s "https://dev.to/api/articles?username=${DEVTO_USERNAME}")
+          TITLE=$(echo $API_RESPONSE | jq -r '.[0].title')
+          URL=$(echo $API_RESPONSE | jq -r '.[0].url')
+          DATE=$(echo $API_RESPONSE | jq -r '.[0].published_at' | cut -d'T' -f1)
+          
+          echo "Latest post title: $TITLE"
+          echo "Latest post URL: $URL"
+          echo "Latest post date: $DATE"
+
+          echo "title=$TITLE" >> $GITHUB_ENV
+          echo "url=$URL" >> $GITHUB_ENV
+          echo "date=$DATE" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          # Update the README with the latest post
+          README_FILE="./README.md"
+          # You can customize the placeholder text to your own preference
+          sed -i "/<!-- LATEST_DEVTO_POST -->/c\\
+          - [${{ env.title }}](${{ env.url }}) - Published on ${{ env.date }}" $README_FILE
+
+      - name: Commit Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with latest Dev.to post" || echo "No changes to commit"
+          git push
