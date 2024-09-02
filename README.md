@@ -30,7 +30,7 @@
 
 ### Blogs posts
 
-<!-- LATEST_DEVTO_POST -->
+- [How to implement Oauth in Go? - Part 1](https://dev.to/bhargab/how-to-implement-oauth-in-go-part-1-1kfo) - Published on 2024-03-11
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
