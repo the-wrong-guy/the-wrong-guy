@@ -50,8 +50,8 @@ jobs:
           # Build the new content for the latest 3 posts
           NEW_CONTENT="- [${{ env.title_1 }}](${{ env.url_1 }}) - Published on ${{ env.date_1 }}\n\- [${{ env.title_2 }}](${{ env.url_2 }}) - Published on ${{ env.date_2 }}\n\- [${{ env.title_3 }}](${{ env.url_3 }}) - Published on ${{ env.date_3 }}"
 
-          # Replace the placeholder section while keeping <!-- LATEST_DEVTO_POST --> intact
-          sed -i '/<!-- LATEST_DEVTO_POST -->/{n;N;N;s/.*/'"$NEW_CONTENT"'/}' $README_FILE
+          # Replace the placeholder section using a different delimiter (|)
+          sed -i '/<!-- LATEST_DEVTO_POST -->/{n;N;N;s|.*|'"$NEW_CONTENT"'|}' $README_FILE
 
       - name: Commit Changes
         run: |
