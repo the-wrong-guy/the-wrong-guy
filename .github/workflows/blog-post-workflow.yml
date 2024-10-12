@@ -31,11 +31,11 @@ jobs:
 
       - name: Update README
         run: |
-          # Update the README with the latest post
           README_FILE="./README.md"
-          # You can customize the placeholder text to your own preference
-          sed -i "/<!-- LATEST_DEVTO_POST -->/c\\
-          - [${{ env.title }}](${{ env.url }}) - Published on ${{ env.date }}" $README_FILE
+          # Update the placeholder <!-- LATEST_DEVTO_POST --> with the new post details
+          sed -i '/<!-- LATEST_DEVTO_POST -->/c\
+          - [${{ env.title }}](${{ env.url }}) - Published on ${{ env.date }}' $README_FILE
+
 
       - name: Commit Changes
         run: |
