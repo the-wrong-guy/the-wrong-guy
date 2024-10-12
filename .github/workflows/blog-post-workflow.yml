@@ -12,35 +12,48 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch Latest Dev.to Post
-        id: fetch_dev_post
+      - name: Fetch Latest Dev.to Posts
+        id: fetch_dev_posts
         run: |
           DEVTO_USERNAME="bhargab"
           API_RESPONSE=$(curl -s "https://dev.to/api/articles?username=${DEVTO_USERNAME}")
-          TITLE=$(echo $API_RESPONSE | jq -r '.[0].title')
-          URL=$(echo $API_RESPONSE | jq -r '.[0].url')
-          DATE=$(echo $API_RESPONSE | jq -r '.[0].published_at' | cut -d'T' -f1)
-          
-          echo "Latest post title: $TITLE"
-          echo "Latest post URL: $URL"
-          echo "Latest post date: $DATE"
 
-          echo "title=$TITLE" >> $GITHUB_ENV
-          echo "url=$URL" >> $GITHUB_ENV
-          echo "date=$DATE" >> $GITHUB_ENV
+          # Get the titles, URLs, and publish dates of the latest 3 posts
+          TITLE_1=$(echo $API_RESPONSE | jq -r '.[0].title')
+          URL_1=$(echo $API_RESPONSE | jq -r '.[0].url')
+          DATE_1=$(echo $API_RESPONSE | jq -r '.[0].published_at' | cut -d'T' -f1)
+
+          TITLE_2=$(echo $API_RESPONSE | jq -r '.[1].title')
+          URL_2=$(echo $API_RESPONSE | jq -r '.[1].url')
+          DATE_2=$(echo $API_RESPONSE | jq -r '.[1].published_at' | cut -d'T' -f1)
+
+          TITLE_3=$(echo $API_RESPONSE | jq -r '.[2].title')
+          URL_3=$(echo $API_RESPONSE | jq -r '.[2].url')
+          DATE_3=$(echo $API_RESPONSE | jq -r '.[2].published_at' | cut -d'T' -f1)
+
+          # Pass these values to the GitHub environment for use in the next steps
+          echo "title_1=$TITLE_1" >> $GITHUB_ENV
+          echo "url_1=$URL_1" >> $GITHUB_ENV
+          echo "date_1=$DATE_1" >> $GITHUB_ENV
+          
+          echo "title_2=$TITLE_2" >> $GITHUB_ENV
+          echo "url_2=$URL_2" >> $GITHUB_ENV
+          echo "date_2=$DATE_2" >> $GITHUB_ENV
+
+          echo "title_3=$TITLE_3" >> $GITHUB_ENV
+          echo "url_3=$URL_3" >> $GITHUB_ENV
+          echo "date_3=$DATE_3" >> $GITHUB_ENV
 
       - name: Update README
         run: |
           README_FILE="./README.md"
-          # Update the placeholder <!-- LATEST_DEVTO_POST --> with the new post details
-          sed -i '/<!-- LATEST_DEVTO_POST -->/c\
-          - [${{ env.title }}](${{ env.url }}) - Published on ${{ env.date }}' $README_FILE
-
+          # Update the placeholder <!-- LATEST_DEVTO_POST --> with the new posts list
+          sed -i '/<!-- LATEST_DEVTO_POST -->/{n;s/.*/- [${{ env.title_1 }}](${{ env.url_1 }}) - Published on ${{ env.date_1 }}/;n;s/.*/- [${{ env.title_2 }}](${{ env.url_2 }}) - Published on ${{ env.date_2 }}/;n;s/.*/- [${{ env.title_3 }}](${{ env.url_3 }}) - Published on ${{ env.date_3 }}/}' $README_FILE
 
       - name: Commit Changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update README with latest Dev.to post" || echo "No changes to commit"
+          git add README.md --force
+          git commit -m "Update README with latest 3 Dev.to posts" || echo "No changes to commit"
           git push
