@@ -29,6 +29,7 @@
 - <p>🤖<a href="https://grbots.vercel.app/">GRBOTS desktop UI</a></p>
 
 ### Blogs posts
+
 <!-- LATEST_DEVTO_POST -->
 
 <h3 align="left">Connect with me:</h3>
