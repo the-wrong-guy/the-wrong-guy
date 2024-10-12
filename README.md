@@ -29,8 +29,7 @@
 - <p>🤖<a href="https://grbots.vercel.app/">GRBOTS desktop UI</a></p>
 
 ### Blogs posts
-
-- [How to implement Oauth in Go? - Part 1](https://dev.to/bhargab/how-to-implement-oauth-in-go-part-1-1kfo) - Published on 2024-03-11
+<!-- LATEST_DEVTO_POST -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
