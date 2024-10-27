@@ -31,9 +31,9 @@
 ### Blogs posts
 
 <!-- LATEST_DEVTO_POST -->
+- [Reducing Docker Image Size: A Journey of Discovery](https://dev.to/bhargab/reducing-docker-image-size-a-journey-of-discovery-2cd2) - Published on 2024-10-26
 - [Understanding Parallelism vs Concurrency in Go](https://dev.to/bhargab/understanding-parallelism-vs-concurrency-in-go-47ch) - Published on 2024-10-09
 - [Rollup.js Made Easy: A Step-by-Step Guide to Building and Publishing NPM Packages](https://dev.to/bhargab/rollupjs-made-easy-a-step-by-step-guide-to-building-and-publishing-npm-packages-1c1k) - Published on 2024-09-04
-- [How to implement Oauth in Go?](https://dev.to/bhargab/how-to-implement-oauth-in-go-part-1-1kfo) - Published on 2024-03-11
 
 ### Socials
 <a href="https://dev.to/bhargab" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="bhargab" height="30" width="40" /></a>
