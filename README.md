@@ -31,7 +31,7 @@
 ### Blogs posts
 
 <!-- LATEST_DEVTO_POST -->
-- [Reducing Docker Image Size: A Journey of Discovery](https://dev.to/bhargab/reducing-docker-image-size-a-journey-of-discovery-2cd2) - Published on 2024-10-26
+- [Optimizing Docker Image Size for Go Applications](https://dev.to/bhargab/reducing-docker-image-size-a-journey-of-discovery-2cd2) - Published on 2024-10-26
 - [Understanding Parallelism vs Concurrency in Go](https://dev.to/bhargab/understanding-parallelism-vs-concurrency-in-go-47ch) - Published on 2024-10-09
 - [Rollup.js Made Easy: A Step-by-Step Guide to Building and Publishing NPM Packages](https://dev.to/bhargab/rollupjs-made-easy-a-step-by-step-guide-to-building-and-publishing-npm-packages-1c1k) - Published on 2024-09-04
 
