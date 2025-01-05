@@ -31,9 +31,9 @@
 ### Blogs posts
 
 <!-- LATEST_DEVTO_POST -->
+- [The Intricacies of MongoDB Aggregation Pipeline: Challenges and Insights from Implementing It with Go](https://dev.to/bhargab/the-intricacies-of-mongodb-aggregation-pipeline-challenges-and-insights-from-implementing-it-with-3go0) - Published on 2025-01-04
 - [The Art of Prefetching and Preloading: Enhancing Web Performance](https://dev.to/bhargab/the-art-of-prefetching-and-preloading-enhancing-web-performance-2ef8) - Published on 2024-12-30
 - [Optimizing Docker Image Size for Go Applications](https://dev.to/bhargab/reducing-docker-image-size-a-journey-of-discovery-2cd2) - Published on 2024-10-26
-- [Understanding Parallelism vs Concurrency in Go](https://dev.to/bhargab/understanding-parallelism-vs-concurrency-in-go-47ch) - Published on 2024-10-09
 
 ### Socials
 <a href="https://dev.to/bhargab" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="bhargab" height="30" width="40" /></a>
