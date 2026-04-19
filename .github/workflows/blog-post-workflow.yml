@@ -1,8 +1,8 @@
-name: Update README with latest Dev.to Post
+name: Update README with latest Dev.to Posts
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,53 +10,70 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Fetch Latest Dev.to Posts
-        id: fetch_dev_posts
+      - name: Update README with Latest Posts
         run: |
-          DEVTO_USERNAME="bhargab"
-          API_RESPONSE=$(curl -s "https://dev.to/api/articles?username=${DEVTO_USERNAME}")
+          python3 << 'EOF'
+          import requests
+          import re
+          from datetime import datetime
 
-          # Get the titles, URLs, and publish dates of the latest 3 posts
-          TITLE_1=$(echo $API_RESPONSE | jq -r '.[0].title')
-          URL_1=$(echo $API_RESPONSE | jq -r '.[0].url')
-          DATE_1=$(echo $API_RESPONSE | jq -r '.[0].published_at' | cut -d'T' -f1)
+          # Fetch latest posts from Dev.to
+          username = "bhargab"
+          url = f"https://dev.to/api/articles?username={username}"
+          response = requests.get(url)
+          posts = response.json()
 
-          TITLE_2=$(echo $API_RESPONSE | jq -r '.[1].title')
-          URL_2=$(echo $API_RESPONSE | jq -r '.[1].url')
-          DATE_2=$(echo $API_RESPONSE | jq -r '.[1].published_at' | cut -d'T' -f1)
+          # Build blog content matching current README format
+          blog_lines = []
+          for i, post in enumerate(posts[:3]):
+              title = post['title']
+              article_url = post['url']
+              date_str = post['published_at'].split('T')[0]
 
-          TITLE_3=$(echo $API_RESPONSE | jq -r '.[2].title')
-          URL_3=$(echo $API_RESPONSE | jq -r '.[2].url')
-          DATE_3=$(echo $API_RESPONSE | jq -r '.[2].published_at' | cut -d'T' -f1)
+              # Convert YYYY-MM-DD to "MON YYYY" format
+              date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+              formatted_date = date_obj.strftime('%b %Y').upper()
 
-          # Pass these values to the GitHub environment for use in the next steps
-          echo "title_1=$TITLE_1" >> $GITHUB_ENV
-          echo "url_1=$URL_1" >> $GITHUB_ENV
-          echo "date_1=$DATE_1" >> $GITHUB_ENV
-          
-          echo "title_2=$TITLE_2" >> $GITHUB_ENV
-          echo "url_2=$URL_2" >> $GITHUB_ENV
-          echo "date_2=$DATE_2" >> $GITHUB_ENV
+              # Handle long titles - wrap after colon if present
+              blog_lines.append(f"  ▶  [{formatted_date}]  {title}")
+              blog_lines.append(f"                 → {article_url}")
 
-          echo "title_3=$TITLE_3" >> $GITHUB_ENV
-          echo "url_3=$URL_3" >> $GITHUB_ENV
-          echo "date_3=$DATE_3" >> $GITHUB_ENV
+              if i < 2:  # Add blank line between posts except after last
+                  blog_lines.append("")
 
-      - name: Update README
-        run: |
-          README_FILE="./README.md"
-          # Build the new content for the latest 3 posts
-          NEW_CONTENT="- [${{ env.title_1 }}](${{ env.url_1 }}) - Published on ${{ env.date_1 }}\n\- [${{ env.title_2 }}](${{ env.url_2 }}) - Published on ${{ env.date_2 }}\n\- [${{ env.title_3 }}](${{ env.url_3 }}) - Published on ${{ env.date_3 }}"
+          # Create the new content block
+          new_block = "```\n" + "\n".join(blog_lines) + "\n```"
 
-          # Replace the placeholder section using a different delimiter (|)
-          sed -i '/<!-- LATEST_DEVTO_POST -->/{n;N;N;s|.*|'"$NEW_CONTENT"'|}' $README_FILE
+          # Read README
+          with open('README.md', 'r', encoding='utf-8') as f:
+              readme = f.read()
 
-      - name: Commit Changes
+          # Replace the blog section - match from LATEST_DEVTO_POST to the code block end
+          pattern = r'(<!-- LATEST_DEVTO_POST -->\n\n)```[\s\S]*?```'
+          readme = re.sub(pattern, r'\1' + new_block, readme)
+
+          # Write back
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(readme)
+
+          print("✅ README updated with latest posts")
+          for line in blog_lines:
+              if line.strip():
+                  print(f"   {line}")
+          EOF
+
+      - name: Commit and Push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md --force
-          git commit -m "Update README with latest 3 Dev.to posts" || echo "No changes to commit"
-          git push
+
+          if [ -n "$(git diff README.md)" ]; then
+            git add README.md
+            git commit -m "🔄 Update README with latest 3 Dev.to posts"
+            git push
+            echo "✅ Changes pushed successfully"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
