@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=900&color=E8352A&center=true&vCenter=true&width=680&lines=PLAYER+ONE+HAS+ENTERED+THE+CHAT+%E2%96%BA;CURRENTLY+SHIPPING+%3A+GROWTH+ENGINE+%7C+CREATOR+TOOLS+%7C+BOT;JS+%2F%2F+GO+%2F%2F+REACT+%2F%2F+SYSTEM+DESIGN;INSERT+COIN+TO+COLLAB+%E2%96%A0" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=900&color=E8352A&center=true&vCenter=true&width=680&lines=PLAYER+ONE+HAS+ENTERED+THE+CHAT+%E2%96%BA;CURRENTLY+SHIPPING+%3A+GROWTH+ENGINE+%7C+CREATOR+TOOLS+%7C+BOT;JS+%2F%2F+GO+%2F%2F+REACT+%2F%2F+SYSTEM+DESIGN;" />
 
 <br/>
 
@@ -201,5 +201,5 @@ const kolita = {
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,E8352A,1a1a1a&height=110&section=footer&text=INSERT+COIN+TO+COLLAB&fontSize=16&fontFamily=Share+Tech+Mono&fontColor=F5E642&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,E8352A,1a1a1a&height=110&section=footer&text=Good+To+See+You+Here+🤩&fontSize=16&fontFamily=Share+Tech+Mono&fontColor=F5E642&animation=fadeIn" />
 </div>
