@@ -132,17 +132,14 @@ const kolita = {
 <!-- LATEST_DEVTO_POST -->
 
 ```
-  ▶  [FEB 2025]  Optimizing Performance in Next.js and React.js:
-                 Best Practices and Strategies
+  ▶  [FEB 2026]  Your Frontend Isn’t Just UI — It’s a Distributed Service
+                 → https://dev.to/bhargab/your-frontend-isnt-just-ui-its-a-distributed-service-jg9
+
+  ▶  [DEC 2025]  How I Automated My GitHub Profile README With GitHub Actions (And How You Can Automate Anything Too)
+                 → https://dev.to/bhargab/how-i-automated-my-github-profile-readme-with-github-actions-and-how-you-can-automate-anything-too-1lkm
+
+  ▶  [FEB 2025]  Optimizing Performance in Next.js and React.js: Best Practices and Strategies
                  → https://dev.to/bhargab/optimizing-performance-in-nextjs-and-reactjs-best-practices-and-strategies-1j2a
-
-  ▶  [JAN 2025]  The Intricacies of MongoDB Aggregation Pipeline:
-                 Challenges & Insights from Implementing It with Go
-                 → https://dev.to/bhargab/the-intricacies-of-mongodb-aggregation-pipeline-challenges-and-insights-from-implementing-it-with-3go0
-
-  ▶  [DEC 2024]  The Art of Prefetching and Preloading:
-                 Enhancing Web Performance
-                 → https://dev.to/bhargab/the-art-of-prefetching-and-preloading-enhancing-web-performance-2ef8
 ```
 
 📻 Full archive → [dev.to/bhargab](https://dev.to/bhargab)
