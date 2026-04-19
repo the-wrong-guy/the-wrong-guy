@@ -1,42 +1,205 @@
-<h1 align="center">Hi <img height="43" width="43" src="https://media.giphy.com/media/1iqh34Ws3rvJtqoqz5/giphy.gif" alt="hand wave" />, I'm Bhargab</h1>
-<h3 align="center">A passionate Full Stack developer from Assam, a north-eastern state in India</h3>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,E8352A,F5E642&height=180&section=header&text=KOLITA.EXE&fontSize=64&fontFamily=Bebas+Neue&fontColor=FFFFFF&animation=fadeIn&desc=コリタ%20%2F%2F%20FULL%20STACK%20ENG%20%2F%2F%20ASSAM%20INDIA&descSize=14&descAlignY=78&descFontFamily=Share+Tech+Mono&descFontColor=F5E642" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=the-wrong-guy&label=Profile%20views&color=0e75b6&style=flat" alt="the-wrong-guy" /> </p>
-
-- 🌱 I’m currently learning **System design & Architecture**
-
-- 💬 Ask me about **Javascript, React & Go**
-
-- 📫 Mail me at **bhargab.contact@gmail.com**
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cockroachlabs.com/product/cockroachdb/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/cockroachdb.svg" alt="cockroachdb" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a></a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=the-wrong-guy&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=the-wrong-guy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-<h3>Projects:</h3>
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=900&color=E8352A&center=true&vCenter=true&width=680&lines=PLAYER+ONE+HAS+ENTERED+THE+CHAT+%E2%96%BA;CURRENTLY+SHIPPING+%3A+GROWTH+ENGINE+%7C+CREATOR+TOOLS+%7C+BOT;JS+%2F%2F+GO+%2F%2F+REACT+%2F%2F+SYSTEM+DESIGN;INSERT+COIN+TO+COLLAB+%E2%96%A0" />
 
-- <p>📱<a href="https://uplora.netlify.app/home">Uplora</a></p>
-- <p>🗨️<a href="https://openchat-bhargab.netlify.app/">Open Chat</a></p>
-- <p>🐍<a href="https://snake-game-bhargab.netlify.app/">Snake Game</a></p>
-- <p>🐥<a href="https://flappy-bird-bhargab.netlify.app/">Flappy Birds</a></p>
-- <p>🧠<a href="https://memory-game-by-bhargab.netlify.app/">Memory Game</a></p>
-- <p>💱<a href="https://2rgct.csb.app/">Currency converter</a></p>
-- <p>🥓<a href="https://ku33b.csb.app/">Food app responsive UI</a></p>
-- <p>🤖<a href="https://grbots.vercel.app/">GRBOTS desktop UI</a></p>
+<br/>
 
-### Blogs posts
+![](https://komarev.com/ghpvc/?username=the-wrong-guy&color=E8352A&style=flat-square&label=NEURAL+LINKS)
+
+</div>
+
+<br/>
+
+---
+
+## 🟥 `PLAYER.INIT()`
+
+```js
+const kolita = {
+  name: 'Bhargab Kalita',
+  alias: 'the-wrong-guy', // yes, really
+  origin: 'Assam, NE India 🌿',
+  class: 'Full Stack Engineer',
+  mission: 'Build products people actually love',
+  currently: [
+    '⚡ Attribution & Growth Engine',
+    '🎨 Creator Tools',
+    '🤖 Trading Bot',
+  ],
+  ask_me: ['JavaScript', 'React', 'Go', 'System Design'],
+  fuel: 'Monster💀 >> caffeine ☕',
+  contact: 'bhargab.contact@gmail.com',
+};
+```
+
+---
+
+## 🟦 `WEAPONS.AND.ABILITIES`
+
+`// LANGUAGES`
+
+![JavaScript](https://img.shields.io/badge/JAVASCRIPT-E8352A?style=flat-square&logo=javascript&logoColor=F5E642)
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-5BB8D4?style=flat-square&logo=typescript&logoColor=1a1a1a)
+![Go](https://img.shields.io/badge/GOLANG-3A8C3A?style=flat-square&logo=go&logoColor=white)
+
+`// FRONTEND`
+
+![React](https://img.shields.io/badge/REACT-E8352A?style=flat-square&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/NEXT.JS-1a1a1a?style=flat-square&logo=next.js&logoColor=F5E642)
+![Redux](https://img.shields.io/badge/REDUX-E8721A?style=flat-square&logo=redux&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TAILWIND-5BB8D4?style=flat-square&logo=tailwind-css&logoColor=1a1a1a)
+![HTML5](https://img.shields.io/badge/HTML5-E8352A?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-5BB8D4?style=flat-square&logo=css3&logoColor=1a1a1a)
+
+`// BACKEND & DATA`
+
+![Node.js](https://img.shields.io/badge/NODE.JS-3A8C3A?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-5BB8D4?style=flat-square&logo=postgresql&logoColor=1a1a1a)
+![MongoDB](https://img.shields.io/badge/MONGODB-3A8C3A?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/REDIS-E8352A?style=flat-square&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MYSQL-5BB8D4?style=flat-square&logo=mysql&logoColor=1a1a1a)
+
+`// INFRA`
+
+![Docker](https://img.shields.io/badge/DOCKER-5BB8D4?style=flat-square&logo=docker&logoColor=1a1a1a)
+![AWS](https://img.shields.io/badge/AWS-E8721A?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-3A8C3A?style=flat-square&logo=google-cloud&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E8352A?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## 🟧 `ACTIVE.MISSIONS`
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  [MISSION_01]  ATTRIBUTION & GROWTH ENGINE              ◌  WIP    │
+│  ──────────────────────────────────────────────────────────────── │
+│  Tracks what ACTUALLY drives growth. No vanity metrics.            │
+│  PROGRESS  ▶  █████████████████░░░░░░░  WIP                       │
+├────────────────────────────────────────────────────────────────────┤
+│  [MISSION_02]  CREATOR TOOLS V1                       ●  LIVE     │
+│  ──────────────────────────────────────────────────────────────── │
+│  Helping creators build, distribute & grow. Zero to launch.        │
+│  PROGRESS  ▶  ████████████████████████  V1 LIVE                   │
+├────────────────────────────────────────────────────────────────────┤
+│  [MISSION_03]  TRADING BOT                            ◌  WIP      │
+│  ──────────────────────────────────────────────────────────────── │
+│  Algorithmic market intel. Robot decides so I don't have to.       │
+│  PROGRESS  ▶  █████████████░░░░░░░░░░░  WIP                       │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🟨 `SIDE.QUESTS`
+
+```
+  ►  📱  UPLORA        →  https://uplora.netlify.app/home
+         Upload & share beautifully.
+
+  ►  🗨️  OPEN CHAT     →  https://openchat-bhargab.netlify.app/
+         Real-time chat. No fuss.
+
+  ►  🤖  GRBOTS        →  https://grbots.vercel.app/
+         Desktop UI for bots.
+
+  ►  🐍  SNAKE GAME    →  https://snake-game-bhargab.netlify.app/
+         Classic. Timeless. Dangerous.
+
+  ►  🐥  FLAPPY BIRD   →  https://flappy-bird-bhargab.netlify.app/
+         Because we love pain.
+
+  ►  🧠  MEMORY GAME   →  https://memory-game-by-bhargab.netlify.app/
+         Train your brain or lose trying.
+
+  ►  💱  CURRENCY      →  https://2rgct.csb.app/
+         Math is hard. Made it easier.
+
+  ►  🥓  FOOD APP UI   →  https://ku33b.csb.app/
+         Responsive food goodness.
+```
+
+---
+
+## 📡 `TRANSMISSIONS // BLOG`
+
+> _Dispatches from the stack — engineering decisions, performance, and the chaos of shipping._
 
 <!-- LATEST_DEVTO_POST -->
-- [Optimizing Performance in Next.js and React.js: Best Practices and Strategies](https://dev.to/bhargab/optimizing-performance-in-nextjs-and-reactjs-best-practices-and-strategies-1j2a) - Published on 2025-02-25
-- [The Intricacies of MongoDB Aggregation Pipeline: Challenges and Insights from Implementing It with Go](https://dev.to/bhargab/the-intricacies-of-mongodb-aggregation-pipeline-challenges-and-insights-from-implementing-it-with-3go0) - Published on 2025-01-04
-- [The Art of Prefetching and Preloading: Enhancing Web Performance](https://dev.to/bhargab/the-art-of-prefetching-and-preloading-enhancing-web-performance-2ef8) - Published on 2024-12-30
 
-### Socials
-<a href="https://dev.to/bhargab" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="bhargab" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/bhargab-kalita/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bhargab-kalita/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/12917153" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="12917153" height="30" width="40" /></a>
-</p>
+```
+  ▶  [FEB 2025]  Optimizing Performance in Next.js and React.js:
+                 Best Practices and Strategies
+                 → https://dev.to/bhargab/optimizing-performance-in-nextjs-and-reactjs-best-practices-and-strategies-1j2a
+
+  ▶  [JAN 2025]  The Intricacies of MongoDB Aggregation Pipeline:
+                 Challenges & Insights from Implementing It with Go
+                 → https://dev.to/bhargab/the-intricacies-of-mongodb-aggregation-pipeline-challenges-and-insights-from-implementing-it-with-3go0
+
+  ▶  [DEC 2024]  The Art of Prefetching and Preloading:
+                 Enhancing Web Performance
+                 → https://dev.to/bhargab/the-art-of-prefetching-and-preloading-enhancing-web-performance-2ef8
+```
+
+📻 Full archive → [dev.to/bhargab](https://dev.to/bhargab)
+
+---
+
+## 📊 `BATTLE.RECORDS`
+
+<div align="center">
+<img height="155em" src="https://github-readme-stats.vercel.app/api?username=the-wrong-guy&show_icons=true&include_all_commits=true&count_private=true&theme=gruvbox&hide_border=true&bg_color=1a1a1a&title_color=E8352A&icon_color=5BB8D4&text_color=F5E642&ring_color=E8352A" />
+<img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-wrong-guy&layout=compact&langs_count=6&theme=gruvbox&hide_border=true&bg_color=1a1a1a&title_color=5BB8D4&text_color=F5E642" />
+</div>
+
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=the-wrong-guy&theme=gruvbox&hide_border=true&background=1a1a1a&stroke=E8352A&ring=E8352A&fire=F5E642&currStreakLabel=E8352A&sideLabels=5BB8D4&dates=F0ECE0" />
+</div>
+
+---
+
+## ⚡ `ACTIVITY.GRAPH`
+
+<div align="center">
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=the-wrong-guy&bg_color=1a1a1a&color=E8352A&line=5BB8D4&point=F5E642&area=true&area_color=E8352A&hide_border=true" />
+</a>
+</div>
+
+---
+
+## 🌱 `CONTRIBUTION.GARDEN`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/the-wrong-guy/the-wrong-guy/blob/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/the-wrong-guy/the-wrong-guy/blob/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake garden" src="https://github.com/the-wrong-guy/the-wrong-guy/blob/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+</div>
+
+---
+
+## 📟 `ESTABLISH.CONNECTION`
+
+<div align="center">
+
+[![X](https://img.shields.io/badge/X_%40kolita__one-1a1a1a?style=for-the-badge&logo=x&logoColor=F5E642)](https://x.com/kolita_one)
+[![DEV](https://img.shields.io/badge/DEV.TO-5BB8D4?style=for-the-badge&logo=dev.to&logoColor=1a1a1a)](https://dev.to/bhargab)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-E8352A?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhargab-kalita/)
+[![Stack Overflow](https://img.shields.io/badge/STACK_OVERFLOW-F5E642?style=for-the-badge&logo=stack-overflow&logoColor=1a1a1a)](https://stackoverflow.com/users/12917153)
+[![GitHub](https://img.shields.io/badge/GITHUB-E8721A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/the-wrong-guy)
+[![Gmail](https://img.shields.io/badge/GMAIL-3A8C3A?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhargab.contact@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,E8352A,1a1a1a&height=110&section=footer&text=INSERT+COIN+TO+COLLAB&fontSize=16&fontFamily=Share+Tech+Mono&fontColor=F5E642&animation=fadeIn" />
+</div>
