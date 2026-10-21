@@ -132,14 +132,14 @@ const kolita = {
 <!-- LATEST_DEVTO_POST -->
 
 ```
+  ▶  [OCT 2026]  I built a link shortener, a tools directory, and then Xoru. Nobody has paid yet.
+                 → https://dev.to/bhargab/i-built-a-link-shortener-a-tools-directory-and-then-xoru-nobody-has-paid-yet-4do3
+
   ▶  [FEB 2026]  Your Frontend Isn’t Just UI — It’s a Distributed Service
                  → https://dev.to/bhargab/your-frontend-isnt-just-ui-its-a-distributed-service-jg9
 
   ▶  [DEC 2025]  How I Automated My GitHub Profile README With GitHub Actions (And How You Can Automate Anything Too)
                  → https://dev.to/bhargab/how-i-automated-my-github-profile-readme-with-github-actions-and-how-you-can-automate-anything-too-1lkm
-
-  ▶  [FEB 2025]  Optimizing Performance in Next.js and React.js: Best Practices and Strategies
-                 → https://dev.to/bhargab/optimizing-performance-in-nextjs-and-reactjs-best-practices-and-strategies-1j2a
 ```
 
 📻 Full archive → [dev.to/bhargab](https://dev.to/bhargab)
